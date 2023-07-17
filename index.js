@@ -3,6 +3,7 @@ import {Channel} from './classes/Channel.js';
 import {FullVideo, Shorts} from './classes/Video.js';
 import { User } from './classes/User.js';
 import { vidPage, vidServPage, channPage } from './classes/Page.js';
+import { Player } from './classes/Player.js';
 
 let vidSrv;
 
@@ -35,6 +36,8 @@ vPage.Comment("Наебалово, как обычно!");
 vPage.Comment("Только что получила, даже больше! Спасибо большое!");
 //vPage.Uncomment("Наебалово, как обычно!");
 //vPage.Like();
+
+vPage.player.Play();
 
 console.log(vPage);
 

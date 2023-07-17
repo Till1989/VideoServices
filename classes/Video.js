@@ -16,20 +16,19 @@ export class Video
 
 export class FullVideo extends Video
 {
-  constructor(name)
+  Load()
   {
-    super(name);
-    this.className="FullVideo";
+    console.log("loading 25%");
+    console.log("loading 50%");
+    console.log("loading 75%");
+    console.log("loading 100%");
   }
-
 }
 
 export class Shorts extends Video
 {
-  constructor(name)
+  Load()
   {
-    super(name);
-    this.className="Shorts";
+    console.log("loading 100%");
   }
-
 }
